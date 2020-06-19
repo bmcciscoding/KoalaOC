@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11C50FA72DB6435A7450333D7D350D8F /* Pods-KoalaOC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43DBC1F55FA5E4BD27D51FBB7857E45D /* Pods-KoalaOC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19810DA3EBE9B44AC38918257D4B702F /* Pods-KoalaOC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F87F5E9D2690C75F6693CAB48B706A /* Pods-KoalaOC_Example-dummy.m */; };
+		1D001A34249CA62800B76709 /* UIView+KL.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D001A32249CA62800B76709 /* UIView+KL.h */; };
+		1D001A35249CA62800B76709 /* UIView+KL.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D001A33249CA62800B76709 /* UIView+KL.m */; };
+		1D001A39249CA70800B76709 /* NSString+KL.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D001A37249CA70800B76709 /* NSString+KL.h */; };
+		1D001A3A249CA70800B76709 /* NSString+KL.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D001A38249CA70800B76709 /* NSString+KL.m */; };
+		43C58B7DB19758A59DF198FAD014C896 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5FA6AE26AAA8EA1EF017F85F61A122D1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C56944286697BEAE6125C7C97A6BF584 /* ReplaceMe.m */; };
+		6F61C87D57FC2DB4690D260DA5D73410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		96837110F67E8155F1A97662AA0DF56D /* KoalaOC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA680A21129857ADA00BA34C06B9BA8 /* KoalaOC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A43986615D16AA37D409A2878BD2D0 /* Pods-KoalaOC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2B74D6C34864CF1A30077F50AF66CA /* Pods-KoalaOC_Tests-dummy.m */; };
+		D1766B573693280570E33BF3E20552AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DB08D5501FDA468173280DA835248513 /* KoalaOC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBB46D931530FF1915ED206563D084A /* KoalaOC-dummy.m */; };
+		F779387A9BF66129E6A8E3C6BE22DC05 /* Pods-KoalaOC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5502394A567AD233F42EB31F6E5809D /* Pods-KoalaOC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25BA65FAED9EC96C6F61B6521E535A21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42B89FECEC9E611B64B8902C79A646EE;
+			remoteInfo = KoalaOC;
+		};
+		D750A53AC18DD9A42B8339637957D0EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2394113B7C5687D7B5E1080B01411AF0;
+			remoteInfo = "Pods-KoalaOC_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08AF3592FDDF0044CD4A6FA389BC1054 /* Pods-KoalaOC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KoalaOC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C6F19713C797C2316346FC08CE3CC8C /* KoalaOC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KoalaOC.modulemap; sourceTree = "<group>"; };
+		1D001A32249CA62800B76709 /* UIView+KL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+KL.h"; sourceTree = "<group>"; };
+		1D001A33249CA62800B76709 /* UIView+KL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+KL.m"; sourceTree = "<group>"; };
+		1D001A37249CA70800B76709 /* NSString+KL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+KL.h"; sourceTree = "<group>"; };
+		1D001A38249CA70800B76709 /* NSString+KL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+KL.m"; sourceTree = "<group>"; };
+		1EED1C924C8856132FE1CA9A8057F412 /* Pods-KoalaOC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KoalaOC_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		200A8BCF810CABA6CF6D8581F44ABC37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		235329847C46A28DA363390555D865E4 /* Pods-KoalaOC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KoalaOC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		43DBC1F55FA5E4BD27D51FBB7857E45D /* Pods-KoalaOC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KoalaOC_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5112C5061B0A782A479AA46898C69082 /* Pods_KoalaOC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoalaOC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		559CB17C9D5893A8B5BE9225672C3212 /* Pods-KoalaOC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KoalaOC_Example.modulemap"; sourceTree = "<group>"; };
+		56EB42B86401DD69DEFB24523A6DC8ED /* Pods_KoalaOC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoalaOC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D6F039C5E0FEBF2C082FE28A50B447 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6FC5AB782F76C435FB292E23D0582E29 /* Pods-KoalaOC_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KoalaOC_Example-Info.plist"; sourceTree = "<group>"; };
+		7AE4816071DF884E587D328E211AE48F /* Pods-KoalaOC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KoalaOC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7DC2866815064F09AEF395E07387C093 /* KoalaOC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KoalaOC-Info.plist"; sourceTree = "<group>"; };
+		8689451EE3FAFA45E30205986BDE9FD0 /* Pods-KoalaOC_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KoalaOC_Tests-Info.plist"; sourceTree = "<group>"; };
+		8763F7D8087FAF8BEF0FF1FDB9332D02 /* KoalaOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KoalaOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4A67F2BBE75DBD1715CA7960BD7862 /* KoalaOC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KoalaOC.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7E159D8589242550D95C36A5B697B0D /* Pods-KoalaOC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KoalaOC_Tests.modulemap"; sourceTree = "<group>"; };
+		ABDCD34C79FE48FAC912A8F50F702B4C /* Pods-KoalaOC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KoalaOC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACBB46D931530FF1915ED206563D084A /* KoalaOC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KoalaOC-dummy.m"; sourceTree = "<group>"; };
+		ADA680A21129857ADA00BA34C06B9BA8 /* KoalaOC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KoalaOC-umbrella.h"; sourceTree = "<group>"; };
+		B2F87F5E9D2690C75F6693CAB48B706A /* Pods-KoalaOC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KoalaOC_Example-dummy.m"; sourceTree = "<group>"; };
+		BC2B74D6C34864CF1A30077F50AF66CA /* Pods-KoalaOC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KoalaOC_Tests-dummy.m"; sourceTree = "<group>"; };
+		C56944286697BEAE6125C7C97A6BF584 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = KoalaOC/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C703B38BAFA2A3F09950FB4FE3127636 /* Pods-KoalaOC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KoalaOC_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C78FD109A85B97F4E1A37ADC606B314E /* Pods-KoalaOC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KoalaOC_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D53B73E9D2CD32574489C2256F65EEC9 /* KoalaOC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KoalaOC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E304DC786EC42B513DA55C2A244A194C /* Pods-KoalaOC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KoalaOC_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E7A919253E200EF70C3A44678A0E532F /* Pods-KoalaOC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KoalaOC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E88B19BCFAA8F43FE94B79CC5B3FEF7B /* KoalaOC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KoalaOC-prefix.pch"; sourceTree = "<group>"; };
+		F5502394A567AD233F42EB31F6E5809D /* Pods-KoalaOC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KoalaOC_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26928352BFDF9DEB027F62F1E365B5DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1766B573693280570E33BF3E20552AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33322D41B5F5160D80F139F3FB5CC589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F61C87D57FC2DB4690D260DA5D73410 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD52EE86A2ED3B49240D0DFAE5BC3516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C58B7DB19758A59DF198FAD014C896 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0141166F6B3B597616CE46E68EFDE672 /* KoalaOC */ = {
+			isa = PBXGroup;
+			children = (
+				1D001A36249CA6EC00B76709 /* Data */,
+				1D001A31249CA5F400B76709 /* View */,
+				C56944286697BEAE6125C7C97A6BF584 /* ReplaceMe.m */,
+				30D3FD5B6085699131B51C7A838A6BB3 /* Pod */,
+				9624AA2057FEE0F60D0A5BDEFE430C21 /* Support Files */,
+			);
+			name = KoalaOC;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1D001A31249CA5F400B76709 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D001A32249CA62800B76709 /* UIView+KL.h */,
+				1D001A33249CA62800B76709 /* UIView+KL.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D001A36249CA6EC00B76709 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1D001A37249CA70800B76709 /* NSString+KL.h */,
+				1D001A38249CA70800B76709 /* NSString+KL.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2D7AA0D73A4F545B9821317854008427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8763F7D8087FAF8BEF0FF1FDB9332D02 /* KoalaOC.framework */,
+				5112C5061B0A782A479AA46898C69082 /* Pods_KoalaOC_Example.framework */,
+				56EB42B86401DD69DEFB24523A6DC8ED /* Pods_KoalaOC_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30D3FD5B6085699131B51C7A838A6BB3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D53B73E9D2CD32574489C2256F65EEC9 /* KoalaOC.podspec */,
+				64D6F039C5E0FEBF2C082FE28A50B447 /* LICENSE */,
+				200A8BCF810CABA6CF6D8581F44ABC37 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		31D0BCB33E1451CC73AB59316D50FC40 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0141166F6B3B597616CE46E68EFDE672 /* KoalaOC */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9624AA2057FEE0F60D0A5BDEFE430C21 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C6F19713C797C2316346FC08CE3CC8C /* KoalaOC.modulemap */,
+				9A4A67F2BBE75DBD1715CA7960BD7862 /* KoalaOC.xcconfig */,
+				ACBB46D931530FF1915ED206563D084A /* KoalaOC-dummy.m */,
+				7DC2866815064F09AEF395E07387C093 /* KoalaOC-Info.plist */,
+				E88B19BCFAA8F43FE94B79CC5B3FEF7B /* KoalaOC-prefix.pch */,
+				ADA680A21129857ADA00BA34C06B9BA8 /* KoalaOC-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KoalaOC";
+			sourceTree = "<group>";
+		};
+		B3CE76511B69E1E475DC89F56156039C /* Pods-KoalaOC_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A7E159D8589242550D95C36A5B697B0D /* Pods-KoalaOC_Tests.modulemap */,
+				E7A919253E200EF70C3A44678A0E532F /* Pods-KoalaOC_Tests-acknowledgements.markdown */,
+				235329847C46A28DA363390555D865E4 /* Pods-KoalaOC_Tests-acknowledgements.plist */,
+				BC2B74D6C34864CF1A30077F50AF66CA /* Pods-KoalaOC_Tests-dummy.m */,
+				8689451EE3FAFA45E30205986BDE9FD0 /* Pods-KoalaOC_Tests-Info.plist */,
+				43DBC1F55FA5E4BD27D51FBB7857E45D /* Pods-KoalaOC_Tests-umbrella.h */,
+				ABDCD34C79FE48FAC912A8F50F702B4C /* Pods-KoalaOC_Tests.debug.xcconfig */,
+				E304DC786EC42B513DA55C2A244A194C /* Pods-KoalaOC_Tests.release.xcconfig */,
+			);
+			name = "Pods-KoalaOC_Tests";
+			path = "Target Support Files/Pods-KoalaOC_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				31D0BCB33E1451CC73AB59316D50FC40 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2D7AA0D73A4F545B9821317854008427 /* Products */,
+				E44C350DE415657CD72C8A60BA15648C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210728E60050E7D1A57474BCA73AAEF /* Pods-KoalaOC_Example */ = {
+			isa = PBXGroup;
+			children = (
+				559CB17C9D5893A8B5BE9225672C3212 /* Pods-KoalaOC_Example.modulemap */,
+				08AF3592FDDF0044CD4A6FA389BC1054 /* Pods-KoalaOC_Example-acknowledgements.markdown */,
+				7AE4816071DF884E587D328E211AE48F /* Pods-KoalaOC_Example-acknowledgements.plist */,
+				B2F87F5E9D2690C75F6693CAB48B706A /* Pods-KoalaOC_Example-dummy.m */,
+				C78FD109A85B97F4E1A37ADC606B314E /* Pods-KoalaOC_Example-frameworks.sh */,
+				6FC5AB782F76C435FB292E23D0582E29 /* Pods-KoalaOC_Example-Info.plist */,
+				F5502394A567AD233F42EB31F6E5809D /* Pods-KoalaOC_Example-umbrella.h */,
+				1EED1C924C8856132FE1CA9A8057F412 /* Pods-KoalaOC_Example.debug.xcconfig */,
+				C703B38BAFA2A3F09950FB4FE3127636 /* Pods-KoalaOC_Example.release.xcconfig */,
+			);
+			name = "Pods-KoalaOC_Example";
+			path = "Target Support Files/Pods-KoalaOC_Example";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E44C350DE415657CD72C8A60BA15648C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D210728E60050E7D1A57474BCA73AAEF /* Pods-KoalaOC_Example */,
+				B3CE76511B69E1E475DC89F56156039C /* Pods-KoalaOC_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		079F9E7D1B1B4FBB92349714790486E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D001A34249CA62800B76709 /* UIView+KL.h in Headers */,
+				1D001A39249CA70800B76709 /* NSString+KL.h in Headers */,
+				96837110F67E8155F1A97662AA0DF56D /* KoalaOC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14EC081642258CF1CC7B9DD64EEE75A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C50FA72DB6435A7450333D7D350D8F /* Pods-KoalaOC_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C8691DA811CD4FEEC8C665D72C1320 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F779387A9BF66129E6A8E3C6BE22DC05 /* Pods-KoalaOC_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2394113B7C5687D7B5E1080B01411AF0 /* Pods-KoalaOC_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80F0E5837C9F4760D8E07114B09349DC /* Build configuration list for PBXNativeTarget "Pods-KoalaOC_Example" */;
+			buildPhases = (
+				46C8691DA811CD4FEEC8C665D72C1320 /* Headers */,
+				7A77E90F1AD52497DE416928F7654B03 /* Sources */,
+				26928352BFDF9DEB027F62F1E365B5DB /* Frameworks */,
+				EFA166FCB3DDAF24D143DA5571B1872C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCAC3730D7D684EA1C59D2A6EE576D55 /* PBXTargetDependency */,
+			);
+			name = "Pods-KoalaOC_Example";
+			productName = "Pods-KoalaOC_Example";
+			productReference = 5112C5061B0A782A479AA46898C69082 /* Pods_KoalaOC_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		42B89FECEC9E611B64B8902C79A646EE /* KoalaOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7B71D8308DE98204BB4EA44C18C980 /* Build configuration list for PBXNativeTarget "KoalaOC" */;
+			buildPhases = (
+				079F9E7D1B1B4FBB92349714790486E2 /* Headers */,
+				DA7319358F77C7F171C158279151A2CD /* Sources */,
+				AD52EE86A2ED3B49240D0DFAE5BC3516 /* Frameworks */,
+				FAC4F4986F658AA9DD07111C7F974F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KoalaOC;
+			productName = KoalaOC;
+			productReference = 8763F7D8087FAF8BEF0FF1FDB9332D02 /* KoalaOC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		938ACD88B2D037487CC415D2211774AC /* Pods-KoalaOC_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897BF0CA6A93D5E3FD034EE8623BF3CE /* Build configuration list for PBXNativeTarget "Pods-KoalaOC_Tests" */;
+			buildPhases = (
+				14EC081642258CF1CC7B9DD64EEE75A3 /* Headers */,
+				21895D6C60A284965C702A9B5D79FD23 /* Sources */,
+				33322D41B5F5160D80F139F3FB5CC589 /* Frameworks */,
+				AD009F1930B33B18461A17E062BE9048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F473C0238634C6D80A3376314A91A6B4 /* PBXTargetDependency */,
+			);
+			name = "Pods-KoalaOC_Tests";
+			productName = "Pods-KoalaOC_Tests";
+			productReference = 56EB42B86401DD69DEFB24523A6DC8ED /* Pods_KoalaOC_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2D7AA0D73A4F545B9821317854008427 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42B89FECEC9E611B64B8902C79A646EE /* KoalaOC */,
+				2394113B7C5687D7B5E1080B01411AF0 /* Pods-KoalaOC_Example */,
+				938ACD88B2D037487CC415D2211774AC /* Pods-KoalaOC_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD009F1930B33B18461A17E062BE9048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA166FCB3DDAF24D143DA5571B1872C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4F4986F658AA9DD07111C7F974F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21895D6C60A284965C702A9B5D79FD23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A43986615D16AA37D409A2878BD2D0 /* Pods-KoalaOC_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A77E90F1AD52497DE416928F7654B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19810DA3EBE9B44AC38918257D4B702F /* Pods-KoalaOC_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7319358F77C7F171C158279151A2CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D001A35249CA62800B76709 /* UIView+KL.m in Sources */,
+				DB08D5501FDA468173280DA835248513 /* KoalaOC-dummy.m in Sources */,
+				1D001A3A249CA70800B76709 /* NSString+KL.m in Sources */,
+				5FA6AE26AAA8EA1EF017F85F61A122D1 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCAC3730D7D684EA1C59D2A6EE576D55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KoalaOC;
+			target = 42B89FECEC9E611B64B8902C79A646EE /* KoalaOC */;
+			targetProxy = 25BA65FAED9EC96C6F61B6521E535A21 /* PBXContainerItemProxy */;
+		};
+		F473C0238634C6D80A3376314A91A6B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KoalaOC_Example";
+			target = 2394113B7C5687D7B5E1080B01411AF0 /* Pods-KoalaOC_Example */;
+			targetProxy = D750A53AC18DD9A42B8339637957D0EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		497267835E0D1FF4B637008B4B2F71DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4A67F2BBE75DBD1715CA7960BD7862 /* KoalaOC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KoalaOC/KoalaOC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KoalaOC/KoalaOC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KoalaOC/KoalaOC.modulemap";
+				PRODUCT_MODULE_NAME = KoalaOC;
+				PRODUCT_NAME = KoalaOC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		54DB326D0A526A9FC5BA66D750474906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EED1C924C8856132FE1CA9A8057F412 /* Pods-KoalaOC_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KoalaOC_Example/Pods-KoalaOC_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KoalaOC_Example/Pods-KoalaOC_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6ED3105C977753A52CF2066D48B2D9FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E304DC786EC42B513DA55C2A244A194C /* Pods-KoalaOC_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KoalaOC_Tests/Pods-KoalaOC_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KoalaOC_Tests/Pods-KoalaOC_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		88314A892F47314D4311A8E4ADA50996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABDCD34C79FE48FAC912A8F50F702B4C /* Pods-KoalaOC_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KoalaOC_Tests/Pods-KoalaOC_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KoalaOC_Tests/Pods-KoalaOC_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6E93896AE72C86B0E7584A4E99BC66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4A67F2BBE75DBD1715CA7960BD7862 /* KoalaOC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KoalaOC/KoalaOC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KoalaOC/KoalaOC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KoalaOC/KoalaOC.modulemap";
+				PRODUCT_MODULE_NAME = KoalaOC;
+				PRODUCT_NAME = KoalaOC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC61C878DADDF6B444E24267655943D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C703B38BAFA2A3F09950FB4FE3127636 /* Pods-KoalaOC_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KoalaOC_Example/Pods-KoalaOC_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KoalaOC_Example/Pods-KoalaOC_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7B71D8308DE98204BB4EA44C18C980 /* Build configuration list for PBXNativeTarget "KoalaOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E93896AE72C86B0E7584A4E99BC66E /* Debug */,
+				497267835E0D1FF4B637008B4B2F71DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80F0E5837C9F4760D8E07114B09349DC /* Build configuration list for PBXNativeTarget "Pods-KoalaOC_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54DB326D0A526A9FC5BA66D750474906 /* Debug */,
+				AC61C878DADDF6B444E24267655943D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897BF0CA6A93D5E3FD034EE8623BF3CE /* Build configuration list for PBXNativeTarget "Pods-KoalaOC_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88314A892F47314D4311A8E4ADA50996 /* Debug */,
+				6ED3105C977753A52CF2066D48B2D9FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

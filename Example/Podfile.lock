@@ -1,0 +1,16 @@
+PODS:
+  - KoalaOC (0.1.0)
+
+DEPENDENCIES:
+  - KoalaOC (from `../`)
+
+EXTERNAL SOURCES:
+  KoalaOC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KoalaOC: 13928c9beedf31b44016fb82f96431b24c9257c0
+
+PODFILE CHECKSUM: eb679f5eaac9dfe0a747e92173a602a73aeaa621
+
+COCOAPODS: 1.8.4

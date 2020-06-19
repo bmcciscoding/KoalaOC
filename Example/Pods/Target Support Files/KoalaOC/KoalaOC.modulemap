@@ -1,0 +1,6 @@
+framework module KoalaOC {
+  umbrella header "KoalaOC-umbrella.h"
+
+  export *
+  module * { export * }
+}
